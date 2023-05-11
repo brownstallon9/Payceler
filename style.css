@@ -41,6 +41,7 @@ a{
     border-radius: 30px;
     width: 120px;
     height: 40px;
+    cursor: pointer;
 }
 /* ShowCase */
 .showcase{
@@ -49,6 +50,11 @@ a{
     height: 380px;
     margin: 0;
     padding: 0px;
+}
+.showcase .grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 50px;
 }
 .showcase h1{
     font-size: 70px;
@@ -64,6 +70,7 @@ a{
     font-size: 20px;
     word-spacing: 5px;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 .showcase .text{
     font-size: 30px;
@@ -95,6 +102,82 @@ a{
 .Dashboard img{
     
     width: 100%;
+}
+/* Ads */
+.ads h1{
+    font-size: 70px;
+    padding: 100px;
+}
+strong{
+    color: #047aed;
+}
+/* Features */
+.features .btn{
+    background-color: gainsboro;
+    color: orange;
+    border: white solid;
+    border-radius: 30px;
+    width: 180px;
+    height: 40px;
+    box-shadow: #00060a 20px;
+    font-size: 20px;
+    position: relative;
+    left: 350px;
+    cursor: pointer;
+}
+.features{
+    display: flex;
+    justify-content: center;
+}
+.features .text{
+    font-size: 30px;
+}
+/* Payment  */
+.payment-primary{
+    padding-top: 100px;
+    padding-left: 100px;
+    color: #3e5870;
+}
+.payment-primary .payment-secondary{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.payment-primary .payment-menu{
+    display: grid;
+    grid-template-rows: 30% 30% 30%;
+}
+.payment-primary .payment-menu h3{
+    font-size: 30px;
+}
+.payment-primary .payment-menu p{
+    font-size: 20px;
+}
+/* Account */
+.account{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.account .steps-head{
+    font-size: 35px;
+    padding-left: 100px;
+}
+.steps-head h1{
+    text-align: start;
+}
+.account .register .btn{
+    background-color: #047aed;
+    color: #fff;
+    border: #047aed solid;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    position: relative;
+    left: 400px;
+    top: 100px;
+    cursor: pointer;
 }
 /* utility */
 .grid{
