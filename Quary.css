@@ -1,0 +1,279 @@
+@media(max-width: 680px){
+    body{
+        width: 100%;
+    }
+    .flex{
+        display: block;
+        text-align: center;
+    }
+    .flex ul{
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-bottom: 0px;
+    }   
+    .navbar{
+        height: 80px;
+    }
+    .navbar button{
+        display: none;
+    }
+    .showcase .digitize{
+        display: flex;
+        justify-content: space-between;
+    }
+    .showcase .primary h1{
+        font-size: 30px;
+    }
+    .showcase .text{
+        width: 200px;
+        height: 200px;
+        padding-left: 40px;
+    }
+    .showcase .primary{
+        padding-left: 30px;
+    }
+    .showcase .text p{
+        font-size: 15px;
+    }
+    .payment .agency{
+        display: block;
+    }
+    .agency-primary {
+        padding-bottom: 10px;
+        padding-left: 80px;
+    }
+    .text{
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    .payment{
+        height: 200px;
+        align-items: center;
+    }
+    .ads{
+        display: grid;
+    }
+    .ads .text{
+        font-size: 20px;
+    }
+    .ads .ads-menu{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    .features-menu{
+        display: grid;
+        text-align: center;
+    }
+    .payment-primary .payment-menu{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20px;
+        width: 200px;
+        padding: 80px;
+    }
+    .payment-primary .payment-img{
+        display: none;
+    }
+    .account .steps-head{
+        display: grid;
+        grid-template-rows: 1fr;
+        font-size: 10px;
+        text-align: center;
+        position: relative;
+        left: 80px;
+    }
+    .features .btn{
+        display: none;
+    }
+    .account .register{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 30px;
+        position: relative;
+        right: 700px;
+        top: 900px;
+    }
+    .account .register .btn{
+        width: 200px;
+    }
+    .steps-primary{
+        height: 600px;
+    }
+    .steps-primary .steps-menu{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20px;
+        position: relative;
+        right: 70px;
+    }
+    .steps-primary .payment-img{
+        display: none;
+    }
+    .services .btn-primary{
+        display: none;
+    }
+    .services .text{
+        font-size: 30px;
+        position: relative;
+        right: 55px;
+    }
+    .services .services-img{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+        padding-top: 20px;
+    }
+    .services{
+        height: 1650px;
+    }
+    .enterprise .enterprise-head{
+        font-size: medium;
+        padding-left: 150px;
+    }
+    .enterprise .enterprise-menu{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    .enterprise{
+        height: 2000px;
+    }
+    footer .footer-menu{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding-left: 50px;
+    }
+}
+@media(max-width: 1090px){
+    .showcase .digitize{
+        display: flex;
+        justify-content: space-between;
+    }
+    .showcase .primary h1{
+        font-size: 30px;
+    }
+    .showcase .text{
+        width: 200px;
+        height: 200px;
+        padding-left: 40px;
+    }
+    .showcase .primary{
+        padding-left: 30px;
+    }
+    .showcase .text p{
+        font-size: 15px;
+    }
+    .payment .agency{
+        display: block;
+    }
+    .agency-primary {
+        padding-bottom: 10px;
+        padding-left: 80px;
+    }
+    .text{
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    .payment{
+        height: 200px;
+        align-items: center;
+    }
+    .ads{
+        display: grid;
+    }
+    .ads .text{
+        font-size: 20px;
+    }
+    .ads .ads-menu{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    .features-menu{
+        display: grid;
+        text-align: center;
+    }
+    .payment-primary .payment-menu{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20px;
+        width: 200px;
+        padding: 80px;
+    }
+    .payment-primary .payment-img{
+        display: none;
+    }
+    .account .steps-head{
+        display: grid;
+        grid-template-rows: 1fr;
+        font-size: 10px;
+        text-align: center;
+        position: relative;
+        left: 80px;
+    }
+    .features .btn{
+        display: none;
+    }
+    .account .register{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 30px;
+        position: relative;
+        right: 700px;
+        top: 900px;
+    }
+    .account .register .btn{
+        width: 200px;
+    }
+    .steps-primary{
+        height: 600px;
+    }
+    .steps-primary .steps-menu{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20px;
+        position: relative;
+        right: 70px;
+    }
+    .steps-primary .payment-img{
+        display: none;
+    }
+    .services .btn-primary{
+        display: none;
+    }
+    .services .text{
+        font-size: 30px;
+        position: relative;
+        right: 55px;
+    }
+    .services .services-img{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+        padding-top: 20px;
+    }
+    .services{
+        height: 1650px;
+    }
+    .enterprise .enterprise-head{
+        font-size: medium;
+        padding-left: 150px;
+    }
+    .enterprise .enterprise-menu{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    .enterprise{
+        height: 2000px;
+    }
+    footer .footer-menu{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding-left: 50px;
+    }
+}
+@media(max-width: 1070px){
+    
+}
