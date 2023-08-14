@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana;
+    color: #333;
+    line-height: 1.6;
+}
+strong{
+    color: #047aed;
+}
+/* Navbar */
+.navbar{
+    color: #00060a;
+    background-color: #fff;
+    height: 70px;
+}
+.navbar a{
+    color: rgb(9, 1, 43);
+    padding: 10px;
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: large;
+}
+.navbar .logo{
+    font-weight: bold;
+    font-size: ;
+}
+.navbar a:hover{
+    border-bottom: 2px #047aed solid;
+}
+ul{
+    list-style-type: none;
+}
+.navbar .flex{
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.navbar .btn{
+    background-color: #047aed;
+    color: #fff;
+    border: #047aed solid;
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+/* ShowCase */
+.showcase{
+    background-color: aliceblue;
+    color: rgb(9, 1, 43);
+    height: 380px;
+    margin: 0;
+    padding: 0px;
+}
+.showcase .digitize{
+    display: flex;
+    justify-content: space-evenly;
+}
+.showcase h1{
+    font-size: 70px;
+    padding-top: 100px;
+}
+.showcase .btn{
+    background-color: #047aed;
+    color: #fff;
+    border: #047aed solid;
+    border-radius: 30px;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.showcase .primary{
+    padding-left: 100px;
+    width: 900px;
+    height: 200px;
+}
+.showcase .text{
+    padding-right: 50px;
+    width: 750px;
+    height: 200px;
+}
+.showcase .text{
+    font-size: 30px;
+    padding-top: 100px;
+}
+/* Payment */
+.payment .agency{
+    display: flex;
+    justify-content: space-between;
+}
+.payment{
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 100px;
+    background-color: aliceblue;
+    height: 150px;
+}
+.payment p img{
+    display: grid;
+}
+.payment .text{
+   display: flex;
+}
+/* Dashboard */
+.Dashboard{
+    background-color: aliceblue;
+}
+.Dashboard img{
+    
+    width: 100%;
+}
+/* Ads */
+.ads h1{
+    font-size: 70px;
+    padding: 100px;
+}
+.ads .ads-menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 200px;
+}
+.ads .ads-menu .Atm{
+    background-color: aliceblue;
+    border: gray solid 3px;
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    transition: transform 0.2s ease-in;
+}
+.ads 
+.Atm:hover{
+    transform: translateY(-15px);
+}
+.ads .ads-menu .Atm h2{
+    padding-left: 30px;
+    font-size: 30px;
+}
+.ads .ads-menu .Atm p{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.ads .ads-menu .Atm img{
+    padding-left: 200px;
+    padding-bottom: 60px;
+}
+.ads .ads-menu .bank{
+    background-color: rgb(248, 225, 229);
+    border: pink solid 3px;
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    transition: transform 0.2s ease-in;
+}
+.ads 
+.bank:hover{
+    transform: translateY(-15px);
+}
+.ads .ads-menu .bank h2{
+    padding-left: 30px;
+    font-size: 30px;
+}
+.ads .ads-menu .bank p{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.ads .ads-menu .bank img{
+    padding-left: 200px;
+    padding-bottom: 60px;
+}
+.ads .ads-menu .tela{
+    background-color: aliceblue;
+    border: rgb(141, 139, 141) solid 3px;
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    transition: transform 0.2s ease-in;
+}
+.ads 
+.tela:hover{
+    transform: translateY(-15px);
+}
+.ads .ads-menu .tela h2{
+    padding-left: 30px;
+    font-size: 30px;
+}
+.ads .ads-menu .tela p{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.ads .ads-menu .tela img{
+    padding-left: 200px;
+    padding-bottom: 60px;
+}
+/* Features */
+.features .btn{
+    background-color: gainsboro;
+    color: orange;
+    border: white solid;
+    border-radius: 30px;
+    width: 180px;
+    height: 40px;
+    box-shadow: #00060a 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.features{
+    display: grid;
+    text-align: center;
+}
+.features .text{
+    font-size: 30px;
+}
+/* Payment  */
+.payment-primary{
+    padding-top: 100px;
+    padding-left: 100px;
+    color: #3e5870;
+}
+.payment-primary .payment-secondary{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.payment-primary .payment-menu{
+    display: grid;
+    grid-template-rows: 30% 30% 30%;
+    gap: 30px;
+}
+.payment-primary .payment-menu h3{
+    font-size: 30px;
+}
+.payment-primary .payment-menu p{
+    font-size: 20px;
+}
+/* Account */
+.account{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 100px;
+}
+.account .steps-head{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    font-size: 35px;
+    gap: 450px;
+    padding-left: 100px;
+
+}
+.steps-head h1{
+    text-align: center;
+    font-size: 35px;
+}
+.account .register .btn{
+    background-color: #047aed;
+    color: #fff;
+    border: #047aed solid;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+/* Steps */
+.steps-primary .steps-secondary{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.steps-secondary .steps-menu{
+    display: grid;
+    grid-template-rows: 30% 30% 30%;
+}
+.steps-primary{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.steps-primary .email{
+    border: lightgray 3px solid;
+    border-radius: 30px;
+    width: 450px;
+    height: 95px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+.steps-primary .email h3{
+    background-color: lightgray;
+    width: 350px;
+    border-radius: 8px;
+    position: relative;
+    left: 50px;
+}
+.steps-primary .email p{
+    font-size: 22px;
+    padding-top: 10px;
+}
+.steps-primary .verification{
+    border: lightgray 3px solid;
+    border-radius: 30px;
+    width: 450px;
+    height: 95px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+.steps-primary .verification h3{
+    background-color: lightgray;
+    width: 350px;
+    border-radius: 8px;
+    position: relative;
+    left: 50px;
+}
+.steps-primary .verification p{
+    font-size: 22px;
+    padding-top: 10px;
+}
+.steps-primary .In{
+    border: lightgray 3px solid;
+    border-radius: 30px;
+    width: 450px;
+    height: 95px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+.steps-primary .In h3{
+    background-color: lightgray;
+    width: 250px;
+    border-radius: 8px;
+    position: relative;
+    left: 100px;
+}
+.steps-primary .In p{
+    font-size: 22px;
+    padding-top: 10px;
+}
+/* Service */
+.services .btn-primary{
+    background-color: white;
+    color: orange;
+    border: white solid;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    box-shadow: #00060a 20px;
+    font-size: 20px;
+    position: relative;
+    left: 750px;
+    bottom: 30px;
+    cursor: pointer;
+}
+.services .text{
+    font-size: 70px;
+    position: relative;
+    right: 100px;
+}
+.services .services-menu{
+    display: flex;
+    text-align: center;
+}
+.services{
+    padding-top: 70px;
+    background-color: aliceblue;
+    height: 750px;
+}
+.services .services-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.services .services-img 
+.web{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    height: 300px;
+    width: 250px;
+    transition: transform 0.2s ease-in;
+}
+.services 
+.web:hover{
+    transform: translateY(-15px);
+}
+.services .services-img .web img{
+    padding-top: 60px;
+}
+.services .services-img .web p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.services .services-img .custom{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    height: 300px;
+    width: 250px;
+    transition: transform 0.2s ease-in;
+}
+.services 
+.custom:hover{
+    transform: translateY(-15px);
+}
+.services .services-img .custom img{
+    padding-top: 60px;
+}
+.services .services-img .custom p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.services .services-img .support{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    height: 300px;
+    width: 250px; 
+    transition: transform 0.2s ease-in;
+}
+.services 
+.support:hover{
+    transform: translateY(-15px);
+}
+.services .services-img .support img{
+    padding-top: 60px;
+}
+.services .services-img .support p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.services .services-img .assurance{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    height: 300px;
+    width: 250px;
+    transition: transform 0.2s ease-in; 
+}
+.services 
+.assurance:hover{
+    transform: translateY(-15px);
+}
+.services .services-img .assurance img{
+    padding-top: 60px;
+}
+.services .services-img .assurance p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.services .contact{
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+}
+.services .btn-secondary{
+    background-color: #047aed;
+    color: #fff;
+    border: #047aed solid;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+/* Enterprise */
+.enterprise{
+    padding-top: 50px;
+    height: 1000px;
+}
+.enterprise .enterprise-head{
+    display: flex;
+    justify-content: start;
+    padding-left: 100px;
+    font-size: 50px;
+}
+.enterprise .enterprise-menu{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.enterprise .enterprise-menu .fintech{
+    background-color: rgb(201, 241, 228);
+    border-radius: 20px;
+    width: 310px;
+    height: 550px;
+    text-align: start;
+    padding-left: 40px;
+    padding-top: 30px;
+    transition: transform 0.2s ease-in;
+}
+.enterprise .enterprise-menu .fintech:hover{
+    transform: translateY(-15px);
+}
+.enterprise .enterprise-menu .fintech h5{
+    padding-bottom: 80px;
+    font-style: italic;
+}
+.enterprise .enterprise-menu .fintech p{
+    font-weight: 400;
+    font-size: 30px;
+}
+.enterprise .enterprise-menu .Decision{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 310px;
+    height: 550px;
+    text-align: start;
+    padding-left: 40px;
+    padding-top: 30px;
+    transition: transform 0.2s ease-in;
+}
+.enterprise .enterprise-menu .Decision:hover{
+    transform: translateY(-15px);
+}
+.enterprise .enterprise-menu .Decision h5{
+    padding-bottom: 80px;
+    font-style: italic;
+}
+.enterprise .enterprise-menu .Decision p{
+    font-weight: 400;
+    font-size: 30px;
+}
+.enterprise .enterprise-menu .trust{
+    background-color: rgb(225, 247, 240);
+    border-radius: 20px;
+    width: 310px;
+    height: 550px;
+    text-align: start;
+    padding-left: 40px;
+    padding-top: 30px;
+    transition: transform 0.2s ease-in;
+}
+.enterprise .enterprise-menu .trust:hover{
+    transform: translateY(-15px);
+}
+.enterprise .enterprise-menu .trust h5{
+    padding-bottom: 80px;
+    font-style: italic;
+}
+.enterprise .enterprise-menu .trust p{
+    font-weight: 400;
+    font-size: 30px;
+}
+.enterprise .enterprise-menu 
+.trust-menu .customers{
+    padding-bottom: 50px;
+}
+.enterprise .enterprise-menu 
+.trust-menu .customers p{
+    font-size: small;
+}
+.enterprise .enterprise-menu 
+.trust-menu .countries p{
+    font-size: small;
+}
+/* Footer */
+footer{
+    background-color: #1b1b1b;
+    color: white;
+}
+footer .footer-menu{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: #047aed
+}
+footer ul{
+    height: 200px;
+    width: 300px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+footer li{
+    padding-bottom: 20px;
+}
+footer .copy{
+    display: flex;
+    justify-content: center;
+    color: #047aed;
+    padding-top: 100px;
+}
+/* utility */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+.btn:hover{
+    transform: scale(0.98);
+}
